@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/db-init/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/order-parent/pom.xml" />
       </list>
     </option>
   </component>
