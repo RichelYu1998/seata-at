@@ -26,4 +26,4 @@ mybatis-plus:
 
 logging:
   level:
-    cn.tedu.account.mapper: DEBUG
+    cn.tedu.mapper: DEBUG
