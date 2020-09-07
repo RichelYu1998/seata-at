@@ -14,6 +14,10 @@ public class AccountServiceImpl implements AccountService {
     @Transactional
     @Override
     public void decrease(Long userId, BigDecimal money) {
-        accountMapper.decrease(userId, money);
+        accountMapper.decrease(userId,money);
+
+        /*if (Math.random() < 0.5) {
+            throw new RuntimeException("模拟异常");
+        }*/
     }
 }
