@@ -30,7 +30,9 @@ public class OrderServiceImpl implements OrderService {
         order.setId(orderId);
 
         orderMapper.create(order);
-
+      /*  if (Math.random() < 0.5) {
+            throw new RuntimeException("模拟异常");
+        }*/
         // 修改库存
         //storageClient.decrease(order.getProductId(), order.getCount());
 
