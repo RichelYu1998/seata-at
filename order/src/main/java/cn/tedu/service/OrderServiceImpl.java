@@ -33,8 +33,8 @@ public class OrderServiceImpl implements OrderService {
       /*  if (Math.random() < 0.5) {
             throw new RuntimeException("模拟异常");
         }*/
-        // 修改库存
-        //storageClient.decrease(order.getProductId(), order.getCount());
+         //修改库存
+        storageClient.decrease(order.getProductId(), order.getCount());
 
         // 修改账户余额
         //accountClient.decrease(order.getUserId(), order.getMoney());
