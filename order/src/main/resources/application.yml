@@ -28,3 +28,6 @@ mybatis-plus:
 logging:
   level:
     cn.tedu.mapper: DEBUG
+
+ribbon:
+  ReadTimeout: 10000
