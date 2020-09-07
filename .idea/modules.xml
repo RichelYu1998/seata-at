@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/db-init/db-init.iml" filepath="$PROJECT_DIR$/db-init/db-init.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-parent/order-parent.iml" filepath="$PROJECT_DIR$/order-parent/order-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storage/storage.iml" filepath="$PROJECT_DIR$/storage/storage.iml" />
     </modules>
   </component>
 </project>
